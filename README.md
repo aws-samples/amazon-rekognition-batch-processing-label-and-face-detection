@@ -6,6 +6,8 @@ This program will take three inputs.
 1.	Input csv containing image URLs
 2.	Temporary S3 bucket name. This bucket will be deleted once the job is complete
 3.	Final output csv file name
+
+![Image-Rekognition](https://github.com/aws-samples/amazon-rekognition-batch-processing-label-and-face-detection/blob/master/Rekognition.jpg)
  
 The Program will also write individual outputs against each image in text format. Currently the parameter min_confidence is set to 60%. This can be changed based on the accuracy requirements of the analysis. The AWS region is set to us-west-2 and if you want to run this program anywhere else, please change the region variable in the program.
 
